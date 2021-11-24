@@ -1,0 +1,47 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT1MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="/templates/pages/page-reservation/style_cven.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<!DOCTYPE html>
+
+<html>
+
+<body>
+    <video autoplay muted loop id="bgvideo">
+        <source src="/templates/pages/page-reservation/images-res/100_0104.MP4" type="video/mp4" </video>
+        <br>
+        <div class="styler">
+            <h1 class="animate__animated animate__bounce">Réservation</h1>
+            <hr />
+            <form method="POST">
+                <p class="tform">Informations personnelles</p>
+                <label for="nom">
+                    <h4 class="animate__animated animate__bounce">Nom</h4>
+                    <input type="text" name="nom" id="nom">
+                </label>
+                <label for="prenom">
+                    <h4 class="animate__animated animate__bounce">Prenom</h4>
+                    <input type="text" name="prenom" id="prenom">
+                </label>
+                <hr />
+                <p class="tform">Date de séjour</p>
+                <label for="datedebut">Date de début de sejour
+                    <input type="date" name="datedebut" id="datedebut">
+                </label>
+                <br />
+                <label for="datefin">Date de fin de sejour
+                    <input type="date" name="datefin" id="datefin">
+                </label>
+                <hr />
+                <div class="styler3">
+                    <button>Reserver votre séjour</button>
+                </div>
+        </div>
+        <br />
+        </form>
+</body>
+
+</html>
+<?php
+    require 'gabarit.php';
+    ?>

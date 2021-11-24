@@ -42,7 +42,6 @@ VALUES
   ("17718","HSO34GTE1YB","Stein","Cherokee","Yes"),
   ("37061","HNM16LUH5ML","Conway","Yvette","Yes");
 
-
 INSERT INTO `Reservation` (`Date_Arrivee`,`Date_Depart`,`Nombre_Client`,`Restaurant`,`Menage`)
 VALUES
   ("01-10-20","02-11-21",6,"Yes","No"),
@@ -51,7 +50,6 @@ VALUES
   ("01-20-20","02-08-21",18,"No","No"),
   ("01-19-20","02-05-21",15,"No","Yes");
 
-
 INSERT INTO `Attribuer_Hebergement` (`Date_hebergement`)
 VALUES
   ("Feb 20, 2020"),
@@ -59,7 +57,6 @@ VALUES
   ("Feb 3, 2020"),
   ("Jan 5, 2020"),
   ("Jan 17, 2020");
-
 
 INSERT INTO `Hebergement_Restauration` (`Type_hebergement`,`Emplacement`,`Etage`,`Commentaire`)
 VALUES

@@ -7,13 +7,14 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Site du jura</title>
         <link rel="stylesheet" href="css_cven.css" type="text/css" >
     </head>
     <body>
         <h1>Site du jura</h1>
+        <h2>Réservation</h2>
         <form>
-            <p class="tform">informattion personnelles</p>
+                <p class="tform">informattion personnelles</p>
             <label for="nom">Nom
                 <input type="text" name="nom" id="nom">
             </label>
@@ -39,5 +40,16 @@ and open the template in the editor.
                     <label for="optionsupp">pension complète
                         <input type="checkbox" name="optionsupp" id="pension_complete">
                     </label>
+            <p class="tform">date de séjour</p>
+            <label for="datedebut">date de début de sejour
+                <input type="date" name="datedebut" id="datedebut" value="date_Arrive">
+            </label>
+            <br/>
+            <label for="datefin">date de fin de sejour
+                <input type="date" name="datefin" id="datefin" value="date_Depart">
+            </label>
+            
+            
+        </form>
     </body>
 </html>

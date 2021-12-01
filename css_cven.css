@@ -1,7 +1,12 @@
+.tform{
+    font-size: 25px;
+}
 
+body{
+    background-color: whitesmoke;
+}
 
 h1{
-    background-color: blue;
-    font-family: cursive;
-    color:white;
+    font-family: var;
+    color:black;
 }

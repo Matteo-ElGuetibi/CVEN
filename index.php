@@ -32,13 +32,12 @@ and open the template in the editor.
             <label for="reservation">logement adapté pour les personnes à mobilité réduite.
                 <input type="radio" name="reservation" id="log_mobilite" value="log_mobilite"></label>
             <br/>
-            <p class="tform">Voulez vous beneficier de la pension complète</p>
-            <label for="pension_complete">oui
-                <input type="radio" name="pension_compete" id=oui" value="1">
-            </label>
-            <label for="pension_complete">non
-                <input type="radio" name="pension_compete" id="non" value="0">
-            </label>
-        </form>
+            <p class="tform">option supplémentaire</p>
+                <label for="optionsupp">pension complète
+                    <input type="checkbox" name="optionsupp" id="pension_complete">
+                </label>
+                    <label for="optionsupp">pension complète
+                        <input type="checkbox" name="optionsupp" id="pension_complete">
+                    </label>
     </body>
 </html>

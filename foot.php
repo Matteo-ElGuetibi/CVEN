@@ -1,0 +1,1 @@
+<foot>Copyright @2021 EL GUETIBI , CHOURA , GOLAM , MBARAPA</foot>

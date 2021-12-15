@@ -10,3 +10,7 @@ h1{
     font-family: var;
     color:black;
 }
+
+li{
+    background-color: black;
+}

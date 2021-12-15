@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    </head>
+    <?php 
+    require 'gabarit.php';
+    ?>
     <body>
         <h2>Réservation</h2>
         <form>
@@ -28,9 +29,6 @@
                 <label for="optionsupp">pension complète
                     <input type="checkbox" name="optionsupp" id="pension_complete">
                 </label>
-                    <label for="optionsupp">pension complète
-                        <input type="checkbox" name="optionsupp" id="pension_complete">
-                    </label>
             <p class="tform">date de séjour</p>
             <label for="datedebut">date de début de sejour
                 <input type="date" name="datedebut" id="datedebut" value="date_Arrive">

@@ -36,8 +36,9 @@
             <br/>
             <label for="datefin">date de fin de sejour
                 <input type="date" name="datefin" id="datefin" value="date_Depart">
-            </label>
-            
+            </label><br/>
+            <br/><br/><br/>
+            <button>Reserver votre séjour</button>
             
         </form>
     </body>

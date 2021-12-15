@@ -14,3 +14,7 @@ h1{
 li{
     background-color: black;
 }
+html{
+    text-align: center;
+    background-color: grey;
+}

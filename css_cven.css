@@ -2,10 +2,6 @@
     font-size: 25px;
 }
 
-body{
-    background-color: whitesmoke;
-}
-
 h1{
     font-family: var;
     color:black;
@@ -18,6 +14,8 @@ li{
 html{
     text-align: center;
     background-color: grey;
+    background-image: url("image/jura.jpeg");
+    
 }
 body{
     background-color: whitesmoke;
@@ -33,5 +31,5 @@ a{
     color:white;
 }
 a:hover{
-    color:yellow;
+    color:greenyellow;
 }

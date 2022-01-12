@@ -5,8 +5,8 @@
     ?>
     <body>
         <h2>Réservation</h2>
-        <form>
-                <p class="tform">informattion personnelles</p>
+        <form method="POST" >
+                <p class="tform">informations personnelles</p>
             <label for="nom">Nom
                 <input type="text" name="nom" id="nom">
             </label>
@@ -31,12 +31,33 @@
                 </label>
             <p class="tform">date de séjour</p>
             <label for="datedebut">date de début de sejour
-                <input type="date" name="datedebut" id="datedebut" value="date_Arrive">
+                <input type="date" name="datedebut" id="datedebut" >
             </label>
             <br/>
             <label for="datefin">date de fin de sejour
-                <input type="date" name="datefin" id="datefin" value="date_Depart">
+                <input type="date" name="datefin" id="datefin">
             </label><br/>
+            <?php
+            if(isset($_POST['nom'])){
+                $_POST['nom'];
+            }
+             if(isset($_POST['prenom'])){
+                 $_POST['prenom'];
+             }
+            if(isset($_POST['reservation'])){
+                $_POST['reservation'];
+            }
+            if(isset($_POST['optionsupp'])){
+                $_POST['optionsupp'];
+            }
+            if(isset($_POST['datedebut'])){
+               $_POST['datedebut']; 
+            }
+            if(isset($_POST['datefin'])){
+                $_POST['datefin'];
+            }
+            
+                    ?>
             <br/><br/><br/>
             <button>Reserver votre séjour</button>
             

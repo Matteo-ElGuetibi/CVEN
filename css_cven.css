@@ -14,21 +14,25 @@ li{
 html{
     text-align: center;
     background-color: grey;
-    background-image: url("image/jura.jpeg");
-    
+    background-image:url("image/url2.jpg");
+    background-repeat: no-repeat;
+      
 }
+
 body{
-    background-color: whitesmoke;
+    background-color: darkgray;
     width:70%;
     margin-left:auto; 
     margin-right:auto;
     border: 20px;
     border-color: black; 
+    
+       
 }
 a{
-    background-color: grey;
+    background-color:darkgrey;
     font-size: 20px;
-    color:white;
+    color:darkgrey;
 }
 a:hover{
     color:greenyellow;

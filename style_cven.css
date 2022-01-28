@@ -1,0 +1,81 @@
+.tform{
+    font-size: 25px;
+}
+h1{
+    font-family: var;
+    color:white;
+}
+
+li{
+    width:20%;
+    margin: auto;
+}
+html{
+    background-color: white;
+    text-align: center;
+    background-image: url("image/beach.jpg");
+    background-size: cover;
+        
+}
+
+body{ 
+       
+}
+a{
+    font-size: 20px;
+    color:white;
+}
+a:hover{
+    color:greenyellow;
+}
+p{
+     color: WHITE;
+}
+h2{
+    color:white;
+}
+label{
+color: white;}
+ul{
+    color:white}
+li{
+    color: white;
+}
+.styler {
+    /*background-image: url("image/beach3.jpg");*/
+     background-color: black;
+    opacity: 0.80;
+     width:70%;
+    margin-left:auto; 
+    margin-right:auto;
+    border: 20px;
+    border-color: black;
+}
+    
+ 
+    
+    
+   
+.styler2{
+   /* background-image: url("image/beach3.jpg");*/
+    background-color: black;
+    opacity:0.75;
+    margin-left:auto; 
+    margin-right:auto;
+     border: 20px;
+    border-color: black;
+    width:70%;
+}
+.styler3{
+    background-color: black;
+    opacity:0.75;
+    margin-left:auto; 
+    margin-right:auto;
+     border: 20px;
+    border-color: black;
+    width:5%;
+}
+.button{
+    background-color:darkgrey;
+}
+    

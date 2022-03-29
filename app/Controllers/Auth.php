@@ -12,6 +12,7 @@ class Auth extends Controller
 		return view('Auth/login');
 
 	}
+
 	public function register()
 	{
 		return view('Auth/register');
@@ -19,7 +20,7 @@ class Auth extends Controller
 	}
         public function save()
 	{
-                echo 'hello register';
+                echo 'Bonjour';
 
 	}
 

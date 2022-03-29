@@ -15,7 +15,7 @@
         <div class="row" style="margin-top:45px">
             <div class="">
                 <h4 class="text-center text-primary ">Connexion</h4><hr>
-                <form action="">
+                <form action="http://localhost/codeigniter_formulairecreation/public/Auth/connection" method="post">
                     <br><div class="form-group">
                         <label for="">Mail</label>
                         <input type="text" class="form-control" name="mail" placeholder="Entrer votre mail"

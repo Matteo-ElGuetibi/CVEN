@@ -4,9 +4,9 @@
     <?php
     require 'gabarit.php';
     ?>
-    <body>
-        <div class="styler">
-            <h2>Réservation</h2> <hr>
+
+    <div class="styler">
+        <h2>Réservation</h2> <hr>
         <form method="POST" >
             <p class="tform">Informations personnelles</p>
             <label for="nom">Nom
@@ -27,7 +27,7 @@
                 <input type="radio" name="reservation" id="4lit_separe" value="4lit_separe"></label>
             <label for="reservation">logement adapté pour les personnes à mobilité réduite.
                 <input type="radio" name="reservation" id="log_mobilite" value="log_mobilite"></label>
-                <br/><hr>
+            <br/><hr>
             <p class="tform">Option supplémentaire</p>
             <label for="optionsupp">pension complète
                 <input type="checkbox" name="optionsupp" id="pension_complete">
@@ -43,29 +43,11 @@
             </div >
             <br/>
             <div class="styler3">
-            <button>Reserver votre séjour</button>
-    </div>
-            <?php
-            if (isset($_POST['nom'])) {
-                $_POST['nom'];
-            }
-            if (isset($_POST['prenom'])) {
-                $_POST['prenom'];
-            }
-            if (isset($_POST['reservation'])) {
-                $_POST['reservation'];
-            }
-            if (isset($_POST['optionsupp'])) {
-                $_POST['optionsupp'];
-            }
-            if (isset($_POST['datedebut'])) {
-                $_POST['datedebut'];
-            }
-            if (isset($_POST['datefin'])) {
-                $_POST['datefin'];
-            }
-            ?>
-            
-        </form>
+                <button>Reserver votre séjour</button>
+            </div>
+
+        </form>   
+
     </body>
+
 </html>

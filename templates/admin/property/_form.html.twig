@@ -1,0 +1,22 @@
+{{ form_start(form) }}
+    <div class="row">
+        <div class="col-md-4">{{ form_row(form.title) }}</div>
+        <div class="col-md-4">{{ form_row(form.surface) }}</div>
+        <div class="col-md-4">{{ form_row(form.price) }}</div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">{{ form_row(form.rooms) }}</div>
+        <div class="col-md-2">{{ form_row(form.bedrooms) }}</div>
+        <div class="col-md-2">{{ form_row(form.heat) }}</div>
+        <div class="col-md-2">{{ form_row(form.floor) }}</div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">{{ form_row(form.imageFile) }}</div>
+        <div class="col-md-3">{{ form_row(form.address) }}</div>
+        <div class="col-md-2">{{ form_row(form.City) }}</div>
+        <div class="col-md-1">{{ form_row(form.postal_code) }}</div>
+        <div class="col-md-2">{{ form_row(form.sold) }}</div>
+    </div>
+{{ form_rest(form) }}
+<button class="btn btn-primary">{{ button|default('Enregistrer') }}</button>
+{{ form_end(form) }}

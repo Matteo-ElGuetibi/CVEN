@@ -1,0 +1,13 @@
+html{
+    background-color: black;
+    text-align: center;
+    background-image: url("/templates/pages/page-reservation/images-res/beach.jpg");
+    background-size: cover;
+        
+}
+ body{
+    background-color: black;
+    text-align: center;
+    background-image: url("/templates/pages/page-reservation/images-res/beach.jpg");
+    background-size: cover;
+} 

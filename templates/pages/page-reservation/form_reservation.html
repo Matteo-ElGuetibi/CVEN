@@ -1,44 +1,83 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT1MZw1T" crossorigin="anonymous">
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT1MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="/templates/pages/page-reservation/style_cven.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<link rel="stylesheet" href="/templates/pages/page-reservation/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <!DOCTYPE html>
 
 <html>
 
+<head>
+</head>
+
 <body>
-    <video autoplay muted loop id="bgvideo">
-        <source src="/templates/pages/page-reservation/images-res/100_0104.MP4" type="video/mp4" </video>
-        <br>
-        <div class="styler">
-            <h1 class="animate__animated animate__bounce">Réservation</h1>
-            <hr />
-            <form method="POST">
-                <p class="tform">Informations personnelles</p>
-                <label for="nom">
-                    <h4 class="animate__animated animate__bounce">Nom</h4>
-                    <input type="text" name="nom" id="nom">
-                </label>
-                <label for="prenom">
-                    <h4 class="animate__animated animate__bounce">Prenom</h4>
-                    <input type="text" name="prenom" id="prenom">
-                </label>
-                <hr />
-                <p class="tform">Date de séjour</p>
-                <label for="datedebut">Date de début de sejour
-                    <input type="date" name="datedebut" id="datedebut">
-                </label>
-                <br />
-                <label for="datefin">Date de fin de sejour
-                    <input type="date" name="datefin" id="datefin">
-                </label>
-                <hr />
-                <div class="styler3">
-                    <button>Reserver votre séjour</button>
-                </div>
-        </div>
-        <br />
-        </form>
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="/template/pages/page-reservation/accueil.html">Jura</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="/templates/pages/page-reservation/accueil.html">Accueil<span
+                class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/templates/pages/page-reservation/form_reservation.html">Reservation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/templates/pages/page-reservation/page-d'authentification.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="/templates/pages/page-reservation/page-d'inscription.html">Inscription</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <br>
+  <br>
+  <div class="styler">
+    <h1 class="animate__animated animate__bounce">Réservation</h1>
+    <hr />
+    <form method="POST">
+      <p class="tform">
+      <p class="animate__animated animate__bounce">Informations personnelles</p>I</p>
+      <label for="nom">
+        <h4 class="animate__animated animate__bounce">Nom</h4>
+        <input type="text" name="nom" id="nom">
+      </label>
+      <label for="prenom">
+        <h4 class="animate__animated animate__bounce">Prenom</h4>
+        <input type="text" name="prenom" id="prenom">
+      </label>
+      <hr />
+      <p class="tform">
+      <p class="animate__animated animate__bounce">Date de séjour</p>
+      </p>
+      <label for="datedebut">
+        <p class="animate__animated animate__bounce">Date de début de sejour</p>
+        <input type="date" name="datedebut" id="datedebut">
+      </label>
+      <br />
+      <label for="datefin">
+        <p class="animate__animated animate__bounce">Date de fin de sejour</p>
+        <input type="date" name="datefin" id="datefin">
+      </label>
+      <hr />
+      <div class="styler3">
+        <button>Reserver votre séjour</button>
+      </div>
+  </div>
+  <br />
+  </form>
 </body>
 
 </html>

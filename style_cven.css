@@ -1,29 +1,28 @@
-
+.tform{
+    font-size: 25px;
+}
 h1{
     font-family: var;
     color:white;
 }
 
 li{
-    
+    width:20%;
     margin: auto;
 }
 html{
-    background-color: black;
+    background-color: white;
     text-align: center;
-    background-image: url("/templates/pages/page-reservation/images-res/beach.jpg");
+    background-image: url("image/beach.jpg");
     background-size: cover;
         
 }
- body{
-    background-color: black;
-    text-align: center;
-    background-image: url("/templates/pages/page-reservation/images-res/beach.jpg");
-    background-size: cover;
-} 
 
-
+body{ 
+       
+}
 a{
+    font-size: 20px;
     color:white;
 }
 a:hover{
@@ -38,7 +37,7 @@ h2{
 label{
 color: white;}
 ul{
-    color:rgb(24, 23, 23);}
+    color:white}
 li{
     color: white;
 }
@@ -52,7 +51,11 @@ li{
     border: 20px;
     border-color: black;
 }
-       
+    
+ 
+    
+    
+   
 .styler2{
    /* background-image: url("image/beach3.jpg");*/
     background-color: black;
@@ -75,11 +78,4 @@ li{
 .button{
     background-color:darkgrey;
 }
-hr {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-
-}
-
+    
